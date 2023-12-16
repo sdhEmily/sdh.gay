@@ -8,6 +8,7 @@
       <link rel="preload" as="image" href="https://cdn.discordapp.com/avatars/1117938860375146617/9265fc041546ee0a3b9a41c816f861eb.webp" fetchpriority="high">
       <link rel="stylesheet" href="index.css" data-precedence="next">
       <script src="https://kit.fontawesome.com/4ac9bf042a.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
       <script src="index.js"></script>
       <title>emily (@sdhEmily) · sdh.gay</title>
       <meta name="description"
@@ -75,14 +76,14 @@
                   height="120">
             </div>
             <div class=" mb-3 flex h-[49px] w-[95%] flex-row items-center justify-end gap-[10px] md:w-[90%]">
+               <div class="flex flex-row items-center gap-[10px] rounded-[48.6px] border-[1.5px] border-[#ffffff0d] bg-[#ffffff0d] p-2 ">
+                  <img alt="Eye Icon" loading="lazy" decoding="async" data-nimg="1" class="" style="color:transparent" src="assets/eye-icon.svg" width="16" height="20"><!--$-->
+                  <p id="views" class="text-[16px] font-light text-[#d8d8d8]"></p>
+               </div>
             </div>
             <section class="flex-col  flex h-fit w-full  items-center justify-center gap-3">
                <div class="w-[90%] items-center text-center  flex line-clamp-1 flex-col justify-center ">
                   <div class="relative flex h-fit w-fit flex-col items-center justify-center">
-                     <img alt="Sparkle" loading="lazy"
-                        decoding="async" data-nimg="fill" class="object-cover"
-                        style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                        src="assets/sparkle.gif">
                      <h1 class=" z-10 line-clamp-1 w-full text-[28px] font-medium text-[--color] " style="--color: #df4fc2;">
                         emily
                      </h1>
@@ -92,43 +93,23 @@
                   <div
                      class="flex w-fit flex-row items-center justify-start gap-3 rounded-[50px] border-[1px] border-[#ffffff0d] bg-[#ffffff0d] px-[10px] py-[5px]">
                      <div class=" relative flex h-fit w-fit flex-col items-center justify-center ">
-                        <div class="peer relative h-[18px] w-[18px]"><img alt="assets/gavel.svg" loading="lazy"
+                        <div class="peer relative h-[18px] w-[18px]"><img alt="assets/circle-check.svg" loading="lazy"
                            decoding="async" data-nimg="fill" class="object-fit fill-purple-600"
                            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                           src="assets/gavel.svg"></div>
+                           src="assets/award.svg"></div>
                         <div
                            class="absolute -top-10 -z-10  flex h-fit flex-col items-center justify-center rounded-[50px] bg-[#000000] px-2 py-2 opacity-0 transition-all duration-300 ease-in-out peer-hover:z-20 peer-hover:opacity-100">
-                           <p class="text-[10px]  text-[#d8d8d8bf]">Staff</p>
-                        </div>
-                     </div>
-                     <div class=" relative flex h-fit w-fit flex-col items-center justify-center ">
-                        <div class="peer relative h-[18px] w-[18px]"><img alt="assets/diamond.svg" loading="lazy"
-                           decoding="async" data-nimg="fill" class="object-fit fill-purple-600"
-                           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                           src="assets/diamond.svg"></div>
-                        <div
-                           class="absolute -top-10 -z-10  flex h-fit flex-col items-center justify-center rounded-[50px] bg-[#000000] px-2 py-2 opacity-0 transition-all duration-300 ease-in-out peer-hover:z-20 peer-hover:opacity-100">
-                           <p class="text-[10px]  text-[#d8d8d8bf]">Premium</p>
-                        </div>
-                     </div>
-                     <div class=" relative flex h-fit w-fit flex-col items-center justify-center ">
-                        <div class="peer relative h-[18px] w-[18px]"><img alt="assets/key.svg" loading="lazy" decoding="async"
-                           data-nimg="fill" class="object-fit fill-purple-600"
-                           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                           src="assets/key.svg"></div>
-                        <div
-                           class="absolute -top-10 -z-10  flex h-fit flex-col items-center justify-center rounded-[50px] bg-[#000000] px-2 py-2 opacity-0 transition-all duration-300 ease-in-out peer-hover:z-20 peer-hover:opacity-100">
-                           <p class="text-[10px]  text-[#d8d8d8bf]">Early</p>
+                           <p class="text-[10px]  text-[#d8d8d8bf]">Winning</p>
                         </div>
                      </div>
                      <div class=" relative flex h-fit w-fit flex-col items-center justify-center ">
                         <div class="peer relative h-[18px] w-[18px]"><img alt="assets/circle-check.svg" loading="lazy"
                            decoding="async" data-nimg="fill" class="object-fit fill-purple-600"
                            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                           src="assets/circle-check.svg"></div>
+                           src="assets/skull-crossbones.svg"></div>
                         <div
                            class="absolute -top-10 -z-10  flex h-fit flex-col items-center justify-center rounded-[50px] bg-[#000000] px-2 py-2 opacity-0 transition-all duration-300 ease-in-out peer-hover:z-20 peer-hover:opacity-100">
-                           <p class="text-[10px]  text-[#d8d8d8bf]">Verified</p>
+                           <p class="text-[10px]  text-[#d8d8d8bf]">YEAHH!!! PIRATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
                         </div>
                      </div>
                      <div class=" relative flex h-fit w-fit flex-col items-center justify-center ">
@@ -145,8 +126,7 @@
                </div>
             </section>
             <section class="mb-2 mt-3 flex  h-fit w-full flex-col items-center justify-center text-[#d8d8d8bf]">
-               <div class="Typewriter" data-testid="typewriter-wrapper"><span class="Typewriter__wrapper">im touching you tonight</span>
-               </div>
+               <h2 class="text-center text-[15px] tracking-[0.75px] text-[#d8d8d8bf]">im touching you tonight</h2>
             </section>
             <section
                class="border-[1.5px] mt-[15px]  h-full w-full  rounded-[50px] border-[#ffffff0d]  shadow-[0_0_10px_#0000001a] md:w-[465px]">
