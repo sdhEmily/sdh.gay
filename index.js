@@ -3,7 +3,7 @@ function discord() {
   alert('Discord Username copied to clipboard.');
 }
 
-function github() {
-    window.open('http://www.github.com/sdhEmily', '_blank').focus();
+let openUrl = function(url) {
+  window.open(url, '_blank').focus();
 }
   
