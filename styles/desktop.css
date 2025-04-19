@@ -1,0 +1,38 @@
+
+@media (min-width:500px){ /* Check if screen is wider than 500px */
+    .window {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30rem !important;
+        border: solid transparent;
+        border-top: 4px;
+        border-image: url(../assets/window/border.png) 3 round;
+        height: auto !important;
+    }
+
+    .titlebar {
+        top: -4px !important;
+        border-top-left-radius:5px !important;
+        border-top-right-radius:5px !important;
+    }
+
+    .lcorner {
+        position: absolute;
+        right: -3px;
+        height: 100%;
+        width: 7px; 
+        transform: scaleX(-1);
+        background: url(../assets/window/corner.png);
+        display: unset !important;
+    }
+
+    .rcorner {
+        position: absolute;
+        left: -3px;
+        height: 100%;
+        width: 7px;
+        background: url(../assets/window/corner.png);
+        display: unset !important;
+    }
+}

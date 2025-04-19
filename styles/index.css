@@ -1,0 +1,85 @@
+@import url(desktop.css);
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+    overscroll-behavior: none;
+}
+  
+  
+.bgimg {
+    background-image: url(../assets/background.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+}
+
+
+@supports(align-items: center) {
+    .close, .icon, .title {
+        top: unset !important;
+    }
+}
+
+.window {
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    background-color: #ece9d8;
+    image-rendering: crisp-edges;
+    height: 100%;
+    width: 100%;
+    padding-top:29px;
+}
+
+.titlebar {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 29px;
+    text-align:left;
+    font-size: 70%;
+    width: 100%;
+    background: url(../assets/window/titlebar.png);
+    top: 0px;
+}
+.close {
+    position: absolute;
+    right: 2px;
+    height: 21px;
+    top:15%;
+    width: 21px;
+    background: url(../assets/window/close.png);
+}
+
+.icon {
+    position:absolute;
+    left: 2px;
+    height: 16px;
+    width:16px;
+    top:25%;
+    background-image: url(../assets/favicon.ico);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.title {
+    position: absolute;
+    left: 22px;
+    color: white;
+    font-size: 15px;
+    top:20%;
+    filter: contrast(1);
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.317);
+}
+
+.content {
+    margin: 15px;
+}
+
